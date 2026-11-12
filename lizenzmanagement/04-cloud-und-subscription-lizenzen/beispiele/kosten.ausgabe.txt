@@ -1,0 +1,9 @@
+Jahreskosten für 60 Benutzer je Plan (Beispielpreise):
+  Plan Basis: 4.320,00 EUR
+  Plan Standard: 9.000,00 EUR
+  Plan Premium: 15.840,00 EUR
+Konten ohne Anmeldung seit mehr als 90 Tagen (Stichtag 2026-11-30):
+  b03 (Plan Standard): 151 Tage, 150,00 EUR pro Jahr
+  b05 (Plan Basis): 168 Tage, 72,00 EUR pro Jahr
+  b08 (Plan Standard): 102 Tage, 150,00 EUR pro Jahr
+Mögliche Einsparung pro Jahr: 372,00 EUR

@@ -1,0 +1,11 @@
+komponente-a   MIT            permissiv            ok
+komponente-b   Apache-2.0     permissiv            ok
+komponente-c   GPL-3.0        starkes Copyleft     ok
+komponente-d   LGPL-2.1       schwaches Copyleft   PRÜFEN: Weitergabe mit Copyleft
+komponente-e   AGPL-3.0       Netzwerk-Copyleft    PRÜFEN: Netzwerkdienst prüfen
+komponente-f   BSD-3-Clause   permissiv            ok
+komponente-g   GPL-2.0        starkes Copyleft     PRÜFEN: Weitergabe mit Copyleft
+komponente-h   MPL-2.0        schwaches Copyleft   ok
+komponente-i   Proprietaer-X  nicht eingeordnet    PRÜFEN: Lizenz unbekannt oder nicht in der Tabelle
+komponente-j   unbekannt      nicht eingeordnet    PRÜFEN: Lizenz unbekannt oder nicht in der Tabelle
+Prüfbedarf: 5 von 10 Komponenten

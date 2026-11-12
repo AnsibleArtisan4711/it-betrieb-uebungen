@@ -1,0 +1,12 @@
+Soll: 12, Ist: 12
+Fehlend (im Soll, nicht gezählt):
+  SN-1003  WIE-NB-003  (Soll-Standort Wien)
+Unbekannt (gezählt, nicht im Soll):
+  SN-9999  (gefunden in Wien)
+Abweichender Standort:
+  SN-1002  WIE-NB-002: Soll Wien, Ist Graz
+Treffer: 11/12 = 91,7 %
+Aktualität am 2026-11-30 (höchstens 365 Tage seit letzter Prüfung):
+  GRZ-MO-001: 730 Tage
+  WIE-NB-003: 667 Tage
+Aktuell: 10/12 = 83,3 %

@@ -1,0 +1,11 @@
+Datensätze: 20
+Zeile  4 WIE-NB-003   Pflichtfeld leer: zustaendig
+Zeile  8 WIE-MO-002   Status unbekannt: 'In Betrieb'
+Zeile 10 WIE-SRV-001  Seriennummer doppelt: SN-5001
+Zeile 11 WIE-SRV-002  Seriennummer doppelt: SN-5001
+Zeile 14 graz-nb-3    Name entspricht nicht der Konvention
+Zeile 15 GRZ-PC-001   Pflichtfeld leer: standort
+Zeile 20 WIE-NB-004   Pflichtfeld leer: seriennr
+Zeile 21 GRZ-NB-004   Status unbekannt: 'defekt'
+Fehlermeldungen: 8, betroffene Datensätze: 8
+Vollständigkeit der Pflichtfelder: 117/120 = 97,5 %

@@ -1,0 +1,5 @@
+Dauern in h: 1.5, 0.5, 4, 0.75, 2, 1, 0.5, 2.5, 0.75, 1
+Gesamtausfallzeit: 14.50 h
+MTTR = 1.45 h
+Betriebszeit = 705.50 h
+MTBF = 70.55 h

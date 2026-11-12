@@ -1,0 +1,21 @@
+name,typ,hersteller,modell,seriennr,standort,zustaendig,status,letzte_pruefung
+WIE-NB-001,Computer,Hersteller A,Notebook 14,SN-1001,Wien,m.huber,in Betrieb,2026-03-12
+WIE-NB-002,Computer,Hersteller A,Notebook 14,SN-1002,Wien,k.berger,in Betrieb,2026-03-12
+WIE-NB-003,Computer,Hersteller A,Notebook 14,SN-1003,Wien,,in Betrieb,2025-02-01
+WIE-PC-001,Computer,Hersteller B,Tower 7,SN-2001,Wien,s.gruber,in Betrieb,2026-01-20
+WIE-PC-002,Computer,Hersteller B,Tower 7,SN-2002,Wien,s.gruber,im Lager,2026-01-20
+WIE-MO-001,Monitor,Hersteller C,Display 24,SN-3001,Wien,m.huber,in Betrieb,2026-03-12
+WIE-MO-002,Monitor,Hersteller C,Display 24,SN-3002,Wien,k.berger,In Betrieb,2026-03-12
+WIE-SW-001,Netzwerkgerät,Hersteller D,Switch 24,SN-4001,Wien,t.lang,in Betrieb,2026-05-05
+WIE-SRV-001,Server,Hersteller E,Rack 2U,SN-5001,Wien,t.lang,in Betrieb,2026-05-05
+WIE-SRV-002,Server,Hersteller E,Rack 2U,SN-5001,Wien,t.lang,in Betrieb,2026-05-05
+GRZ-NB-001,Computer,Hersteller A,Notebook 14,SN-1010,Graz,p.wolf,in Betrieb,2026-02-17
+GRZ-NB-002,Computer,Hersteller A,Notebook 14,SN-1011,Graz,p.wolf,in Reparatur,2026-02-17
+graz-nb-3,Computer,Hersteller A,Notebook 14,SN-1012,Graz,a.pichler,in Betrieb,2026-02-17
+GRZ-PC-001,Computer,Hersteller B,Tower 7,SN-2010,,a.pichler,in Betrieb,2026-02-17
+GRZ-MO-001,Monitor,Hersteller C,Display 24,SN-3010,Graz,p.wolf,in Betrieb,2024-11-30
+GRZ-DR-001,Drucker,Hersteller F,Laser 40,SN-6001,Graz,a.pichler,in Betrieb,2026-02-17
+GRZ-SW-001,Netzwerkgerät,Hersteller D,Switch 24,SN-4010,Graz,t.lang,in Betrieb,2026-05-05
+WIE-DR-001,Drucker,Hersteller F,Laser 40,SN-6002,Wien,m.huber,ausgemustert,2026-03-12
+WIE-NB-004,Computer,Hersteller A,Notebook 14,,Wien,k.berger,in Betrieb,2026-03-12
+GRZ-NB-004,Computer,Hersteller A,Notebook 14,SN-1013,Graz,p.wolf,defekt,2026-02-17

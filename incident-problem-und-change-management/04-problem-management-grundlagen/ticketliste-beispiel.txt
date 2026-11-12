@@ -1,0 +1,16 @@
+# Fiktive Ticket-Überschriften, frei erfunden
+T01 WLAN bricht im Konferenzraum A ab
+T02 Drucker im 2. Stock offline (Montag)
+T03 Passwort vergessen
+T04 WLAN-Verbindung Konferenzraum B instabil
+T05 Maus funktioniert nicht
+T06 WLAN fällt im Konferenzraum A immer wieder aus
+T07 Drucker im 2. Stock offline (Montag)
+T08 VPN-Anmeldung schlägt fehl
+T09 WLAN-Abbruch im Konferenzraum C während Videokonferenz
+T10 Drucker im 2. Stock offline (Montag)
+T11 Software-Lizenz abgelaufen
+T12 WLAN-Abbrüche Konferenzraum A
+T13 Bildschirm flackert
+T14 Drucker im 2. Stock offline (Montag)
+T15 WLAN im Konferenzraum B nicht erreichbar

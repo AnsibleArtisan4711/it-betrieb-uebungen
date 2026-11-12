@@ -1,0 +1,5 @@
+Gesamtausfallzeit: 6 h
+MTTR: 2.00 h
+Betriebszeit:      162 h
+MTBF: 54.00 h
+Verfuegbarkeit:    96.43 %

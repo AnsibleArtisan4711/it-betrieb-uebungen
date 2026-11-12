@@ -1,0 +1,5 @@
+SRV-A: 1 CPU x 4 Kerne, 2 VMs -> 16 Kerne je Durchgang x 1 = 16 Kernlizenzen (8 2er-Pakete)
+SRV-B: 2 CPU x 8 Kerne, 6 VMs -> 16 Kerne je Durchgang x 3 = 48 Kernlizenzen (24 2er-Pakete)
+SRV-C: 2 CPU x 12 Kerne, 4 VMs -> 24 Kerne je Durchgang x 2 = 48 Kernlizenzen (24 2er-Pakete)
+SRV-D: 1 CPU x 6 Kerne, 0 VMs -> 16 Kerne je Durchgang x 1 = 16 Kernlizenzen (8 2er-Pakete)
+Summe Standard-Annahme: 128 Kernlizenzen (64 2er-Pakete)

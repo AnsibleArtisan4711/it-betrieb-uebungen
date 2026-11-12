@@ -1,0 +1,11 @@
+RB-01: 168 Tage 
+RB-02: 365 Tage 
+RB-03: 406 Tage UEBERFAELLIG
+RB-04: 273 Tage 
+RB-05: 574 Tage UEBERFAELLIG
+RB-06: 90 Tage 
+RB-07: 718 Tage UEBERFAELLIG
+RB-08: 314 Tage 
+RB-09: 366 Tage UEBERFAELLIG
+RB-10: 51 Tage 
+Ueberfaellig: 4 von 10, Aktualitaetsquote 60 %

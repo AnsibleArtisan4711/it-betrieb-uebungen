@@ -1,0 +1,12 @@
+[Unit]
+Description=Mailpit - Postfach fuer eingehende Mails (POP3 fuer Zammad)
+After=network.target
+
+[Service]
+User=mailpit
+StateDirectory=mailpit-in
+ExecStart=/usr/local/bin/mailpit --database /var/lib/mailpit-in/mailpit.db --listen 0.0.0.0:8026 --smtp 127.0.0.1:2025 --pop3 127.0.0.1:1110 --pop3-auth-file /etc/mailpit/pop3users.txt
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

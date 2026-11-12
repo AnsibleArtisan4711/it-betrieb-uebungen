@@ -1,0 +1,6 @@
+08:02  Beginn             +  0 min
+08:10  Meldung            +  8 min
+08:20  Eskalation         + 10 min
+09:05  Ursache gefunden   + 45 min
+09:50  Behebung           + 45 min
+Gesamtdauer: 108 Minuten

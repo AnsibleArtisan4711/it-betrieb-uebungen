@@ -1,0 +1,8 @@
+# Beispiel, nicht ausgeführt. Schnittstellenname anpassen (ip a). Nur Leerzeichen einrücken.
+network:
+  version: 2
+  ethernets:
+    eth0:
+      addresses: [192.168.100.10/24]
+    eth1:
+      dhcp4: true   # nur temporär für Modul 1 und 2, danach entfernen

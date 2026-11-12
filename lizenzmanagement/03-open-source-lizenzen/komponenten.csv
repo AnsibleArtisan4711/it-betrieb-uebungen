@@ -1,0 +1,11 @@
+komponente,version,lizenz,weitergabe
+komponente-a,1.4,MIT,nein
+komponente-b,2.0,Apache-2.0,nein
+komponente-c,3.1,GPL-3.0,nein
+komponente-d,0.9,LGPL-2.1,ja
+komponente-e,5.2,AGPL-3.0,nein
+komponente-f,1.0,BSD-3-Clause,ja
+komponente-g,2.3,GPL-2.0,ja
+komponente-h,4.0,MPL-2.0,nein
+komponente-i,1.1,Proprietaer-X,nein
+komponente-j,2.2,unbekannt,ja

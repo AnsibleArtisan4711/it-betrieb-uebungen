@@ -1,0 +1,12 @@
+[Unit]
+Description=Mailpit - ausgehende Mails von Zammad
+After=network.target
+
+[Service]
+User=mailpit
+StateDirectory=mailpit-out
+ExecStart=/usr/local/bin/mailpit --database /var/lib/mailpit-out/mailpit.db --listen 0.0.0.0:8025 --smtp 127.0.0.1:1025
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

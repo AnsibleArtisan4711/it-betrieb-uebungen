@@ -1,0 +1,5 @@
+Plan: {'Huber': 10, 'Maier': 8, 'Gruber': 8, 'Bauer': 8}
+Huber uebernimmt Gruber: {'Huber': 18, 'Maier': 8, 'Bauer': 8}
+3 Personen: Maximum Tage/Monat = 16
+4 Personen: Maximum Tage/Monat = 11
+5 Personen: Maximum Tage/Monat = 8

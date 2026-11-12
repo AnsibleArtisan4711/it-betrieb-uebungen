@@ -1,0 +1,11 @@
+# Fiktiver Logauszug, frei erfunden, nichts davon wurde real aufgezeichnet.
+2026-11-02 08:00:03 www.example.com INFO  Dienst gestartet
+2026-11-02 08:15:41 www.example.com INFO  Anfrage GET /index.html 200 12 ms
+2026-11-02 09:02:10 www.example.com WARN  Antwortzeit 1850 ms (Schwelle 1000 ms)
+2026-11-02 09:30:55 www.example.com INFO  Zertifikat gültig bis 2027-03-01
+2026-11-02 10:12:44 www.example.com ERROR Anfrage GET /shop 500 Interner Fehler
+2026-11-02 11:00:00 www.example.com INFO  Sicherung abgeschlossen
+2026-11-02 12:21:09 www.example.com WARN  Speicherauslastung 85 %
+2026-11-02 13:05:30 www.example.com INFO  Anfrage GET /kontakt 200 8 ms
+2026-11-02 14:40:12 www.example.com WARN  Festplatte 82 % belegt
+2026-11-02 15:03:27 www.example.com ERROR Datenbankverbindung nicht erreichbar, Dienst antwortet nicht

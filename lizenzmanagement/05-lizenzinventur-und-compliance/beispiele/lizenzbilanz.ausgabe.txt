@@ -1,0 +1,7 @@
+Produkt Archiv         Bedarf   0  Bestand   5  überlizenziert um 5
+Produkt Büro           Bedarf  60  Bestand  60  ausgeglichen
+Produkt Datenbank      Bedarf   4  Bestand   4  ausgeglichen
+Produkt Grafik         Bedarf   6  Bestand   3  UNTERLIZENZIERT um 3
+Produkt PDF-Werkzeug   Bedarf  25  Bestand  30  überlizenziert um 5
+Produkt Server-Zugriff Bedarf  60  Bestand  50  UNTERLIZENZIERT um 10
+Unterlizenziert: 2, überlizenziert: 2

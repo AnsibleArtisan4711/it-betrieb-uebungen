@@ -1,0 +1,5 @@
+Gesamt: Reaktion 10/12 = 83.3 %, Loesung 12/12 = 100.0 %
+P1: Reaktion 2/3 = 66.7 %, Loesung 3/3 = 100.0 %
+P2: Reaktion 3/4 = 75.0 %, Loesung 4/4 = 100.0 %
+P3: Reaktion 5/5 = 100.0 %, Loesung 5/5 = 100.0 %
+Wiedereroeffnet: 4/12 = 33.3 %

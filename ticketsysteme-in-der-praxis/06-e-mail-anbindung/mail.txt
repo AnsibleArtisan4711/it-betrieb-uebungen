@@ -1,0 +1,5 @@
+From: schmidt@example.internal
+To: support@example.internal
+Subject: Drucker defekt
+
+Guten Tag, der Drucker im ersten Stock druckt nicht mehr. Bitte um Hilfe.

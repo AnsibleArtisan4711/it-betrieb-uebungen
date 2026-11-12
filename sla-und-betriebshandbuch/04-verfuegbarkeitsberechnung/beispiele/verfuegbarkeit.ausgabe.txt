@@ -1,0 +1,27 @@
+Aufgabe 1
+  99.0 %: 5256.00 min/Jahr = 87.600 h, 432.00 min/Monat
+  99.5 %: 2628.00 min/Jahr = 43.800 h, 216.00 min/Monat
+  99.9 %: 525.60 min/Jahr = 8.760 h, 43.20 min/Monat
+  99.95 %: 262.80 min/Jahr = 4.380 h, 21.60 min/Monat
+  99.99 %: 52.56 min/Jahr = 0.876 h, 4.32 min/Monat
+  S2 Oktober: 21 Servicetage, 15120 min, bei 99 % zulaessig 151.2 min
+Aufgabe 2
+  Ausfall 1: 45 min anrechenbar
+  Ausfall 2: 85 min anrechenbar
+  Ausfall 3: 20 min anrechenbar
+  Ausfall 4: 55 min anrechenbar
+  Ausfall 5: 30 min anrechenbar
+  Summe 235 min, Basis 42960 min, Verfuegbarkeit 99.453 % (zulaessig 214.8 min)
+  naiv: 285 min, Basis 43200 min, 99.340 %
+  MTTR 47 min, MTBF 8545 min = 142.4 h
+Aufgabe 3
+  05.10.: 90 min
+  14.10.: 30 min
+  17.10.: 0 min
+  26.10.: 0 min
+  29.10.: 45 min
+  Summe 165 min, Verfuegbarkeit 98.909 % (Ziel 99 %, zulaessig 151.2 min)
+Aufgabe 4
+  Reihe 99.351 %, Ausfall 3409 min/Jahr = 56.8 h
+  Host-Cluster: Cluster 99.9999 %, Gesamt 99.451 %
+  DB-Cluster: Cluster 99.9996 %, Gesamt 99.550 %

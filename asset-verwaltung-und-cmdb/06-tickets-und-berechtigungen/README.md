@@ -1,0 +1,9 @@
+# 06 Tickets, Berechtigungen und Verknüpfungen
+
+Übung **06.1**. Geschätzte Zeit: 2 bis 4 Stunden (Lehrplan: 4 UE).
+
+> Stand: Entwurf, nicht erprobt. Details im Warnhinweis der Übung.
+
+| Datei | Zweck |
+|---|---|
+| `06.1-tickets-und-berechtigungen.md` | Die Übung mit Aufgaben, Kontrollfragen und Musterlösung |
