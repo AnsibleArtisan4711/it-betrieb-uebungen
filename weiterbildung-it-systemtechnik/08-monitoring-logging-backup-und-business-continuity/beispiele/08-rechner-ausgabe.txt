@@ -1,0 +1,11 @@
+# Ausgabe der Rechenhilfe. ACHTUNG: Die Minutenwerte beim Aufruf 'rto' (12, 8, 30, 15) sind FREI ERFUNDENE Beispielwerte, keine Messung.
+(40 - 10) / 0.5 = 60 Tage bis zur Alarmgrenze
+n=3  Mittelwert=41.13  Minimum=41.1  Maximum=41.2  Spanne=0.1
+# (Eingabedatei /tmp/trend.csv: 3 selbst geschriebene Beispielzeilen)
+Sicherung dauert 12 min (taeglich -> RPO hoechstens 24 h Datenverlust)
+RTO (gemessene Wiederherstellung 8 + Vorbereitung 30 + Pruefung 15) = 53 min = 0.88 h
+Erlaubter Ausfall 4 h: RTO passt.
+Ob ein RPO von 24 h (Datenverlust bis zu einem Tag) fuer den Betrieb tragbar ist, ist eine eigene Frage: im Betrieb klaeren.
+Die Alarmgrenze ist bereits erreicht oder unterschritten.
+Eingabefehler: [Errno 2] No such file or directory: '/tmp/nicht-da.csv'
+rc=1

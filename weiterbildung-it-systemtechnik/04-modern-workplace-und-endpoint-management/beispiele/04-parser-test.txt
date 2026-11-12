@@ -1,0 +1,4 @@
+# Test des Auswertungsmusters aus 04.1-geraetepruefung.ps1 (PowerShell 7.4.6, Linux)
+# ACHTUNG: Eingabe war eine SELBST GESCHRIEBENE Nachbildung der dsregcmd-Ausgabe, keine echte Ausgabe eines Windows-Geraets.
+AzureAdJoined = YES
+DomainJoined = NO

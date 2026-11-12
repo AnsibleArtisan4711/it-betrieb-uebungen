@@ -1,0 +1,10 @@
+# Ziel: /etc/systemd/system/lab-hello.service. Nach jeder Aenderung: sudo systemctl daemon-reload
+[Unit]
+Description=Lab-Hello (Uebung 05.1)
+
+[Service]
+ExecStart=/usr/local/bin/lab-hello.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

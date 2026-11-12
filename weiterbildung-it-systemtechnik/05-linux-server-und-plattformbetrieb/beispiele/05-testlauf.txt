@@ -1,0 +1,113 @@
+# Testlauf Modul 5 (Ubuntu 24.04.5 im Container, als root). Kein Hyper-V, kein Windows-Client, kein echtes Labornetz.
+
+## 1. Rechte und Setgid (05.1-gruppe-und-rechte.sh)
+[Trockenlauf] addgroup labgrp 
+[Trockenlauf] adduser --disabled-password --gecos '' labuser01 
+[Trockenlauf] adduser --disabled-password --gecos '' labuser02 
+[Trockenlauf] usermod -aG labgrp labuser01 
+[Trockenlauf] mkdir -p /tmp/labtest/shared 
+[Trockenlauf] chgrp labgrp /tmp/labtest/shared 
+[Trockenlauf] chmod 2770 /tmp/labtest/shared 
+drwxrws--- 2 root labgrp 4096 Nov 12 02:48 /tmp/labtest/shared
+-rw-rw-r-- 1 labuser01 labgrp 0 Nov 12 02:48 /tmp/labtest/shared/datei-von-user01
+# labuser02 (ohne Gruppenmitgliedschaft):
+touch: cannot touch '/tmp/labtest/shared/datei-von-user02': Permission denied
+-> Zugriff verweigert (erwartet)
+# sudo fuer labuser01:
+User labuser01 is not allowed to run sudo on vm.
+Rueckbau beendet.
+
+## 2. systemd-Unit (systemd-analyze verify)
+Binding to IPv6 address not available since kernel does not support IPv6.
+verify OK (korrekter Pfad)
+# mit absichtlichem Tippfehler im Pfad:
+Binding to IPv6 address not available since kernel does not support IPv6.
+lab-hallo-fehler.service: Command /usr/local/bin/lab-hallo.sh is not executable: No such file or directory
+# Skript selbst 3 Sekunden laufen lassen:
+lab-hello Thu Nov 12 02:48:23 CET 2026
+rc=124 (124 = durch timeout beendet, erwartet)
+
+## 3. SSH-Haertung (sshd -t / sshd -T mit eigener Testkonfiguration, kein laufender Dienst)
+# ohne Drop-in:
+permitrootlogin yes
+passwordauthentication yes
+sshd -t OK
+# mit Drop-in 10-lab-haertung.conf (Include steht vor den Direktiven der Hauptdatei):
+permitrootlogin no
+passwordauthentication no
+# Gegenprobe: dieselbe Direktive 'yes' in der spaeteren Datei 50-cloud-init.conf:
+passwordauthentication no
+# Gegenprobe 2: Drop-in allein, benannt 99-lab-haertung.conf (wirkt ebenfalls, solange keine frühere Datei denselben Wert setzt):
+passwordauthentication no
+# Gegenprobe 3: Fehler in der Datei (sshd -t muss ihn zeigen):
+/tmp/sshtest/sshd_config.d/99-lab-haertung.conf: line 1: Bad configuration option: PasswordAuthentikation
+/tmp/sshtest/sshd_config.d/99-lab-haertung.conf: terminating, 1 bad configuration options
+rc=255
+
+## 4. ufw-Skript (nur Trockenlauf; der Container hat keine nutzbare Firewall-Umgebung)
+[Trockenlauf] ufw default deny incoming 
+[Trockenlauf] ufw default allow outgoing 
+[Trockenlauf] ufw allow from 192.168.50.0/24 to any port 22 proto tcp 
+[Trockenlauf] ufw allow from 192.168.60.0/24 to any port 22 proto tcp 
+[Trockenlauf] ufw --force enable
+# ohne -n und ohne Bestaetigung:
+Abbruch. Erst zweite Sitzung oeffnen.
+rc=1
+
+## 5. netplan-Datei (netplan generate in temporaerem Wurzelverzeichnis)
+Failed to send reload request: No such file or directory
+System has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+Command '['systemctl', 'daemon-reload', '--no-ask-password']' returned non-zero exit status 1.
+rc=0
+/tmp/netplanroot/run/udev/rules.d/99-netplan-inet0.rules
+/tmp/netplanroot/run/udev/rules.d/90-netplan.rules
+/tmp/netplanroot/run/udev/rules.d/99-netplan-lab0.rules
+/tmp/netplanroot/run/systemd/network/10-netplan-inet0.network
+/tmp/netplanroot/run/systemd/network/10-netplan-lab0.network
+/tmp/netplanroot/run/systemd/network/10-netplan-lab0.link
+/tmp/netplanroot/run/systemd/network/10-netplan-inet0.link
+/tmp/netplanroot/run/systemd/system/systemd-networkd-wait-online.service.d/10-netplan.conf
+/tmp/netplanroot/run/systemd/system/netplan-ovs-cleanup.service
+--- /tmp/netplanroot/run/systemd/network/10-netplan-inet0.network
+[Match]
+PermanentMACAddress=00:15:5d:00:00:02
+Name=inet0
+
+[Network]
+DHCP=ipv4
+LinkLocalAddressing=ipv6
+
+[DHCP]
+RouteMetric=100
+UseMTU=true
+--- /tmp/netplanroot/run/systemd/network/10-netplan-lab0.network
+[Match]
+PermanentMACAddress=00:15:5d:00:00:01
+Name=lab0
+
+[Network]
+LinkLocalAddressing=ipv6
+Address=192.168.50.30/24
+DNS=192.168.50.10
+
+[Route]
+Destination=192.168.60.0/24
+Gateway=192.168.50.20
+# Gegenprobe mit Einrueckungsfehler:
+/tmp/netplanroot/etc/netplan/50-lab.yaml:13:7: Invalid YAML: inconsistent indentation:
+      routes:
+      ^
+Failed to send reload request: No such file or directory
+rc=1
+
+## 6. Haertungspruefung (05.1-haertung-pruefen.sh)
+
+Das Skript lief im Container ohne Fehler (Abschnitte: lauschende Ports, wirksame sshd-Einstellungen, Firewallstatus, Zahl aktualisierbarer Pakete). Die Ausgabe haengt von der Testumgebung ab und wird hier nicht abgedruckt; auf `LX-UBU01` liefert sie andere Werte.
+
+## Nicht geprueft
+
+- `ufw` wurde nicht aktiviert (kein sinnvoller Test im Container), nur der Trockenlauf und die Sicherheitsabfrage.
+- `systemctl start/status` und `journalctl` wurden nicht ausgefuehrt (kein systemd als PID 1); geprueft wurde die Unit mit `systemd-analyze verify`.
+- Kein Hyper-V, keine Windows-Clients, kein `scp` und keine Schluesselanmeldung ueber das Netz.
+- Ob `ssh` auf Ubuntu 24.04 per Socket-Aktivierung startet und `systemctl reload ssh` der richtige Befehl ist, ist nicht bestaetigt.

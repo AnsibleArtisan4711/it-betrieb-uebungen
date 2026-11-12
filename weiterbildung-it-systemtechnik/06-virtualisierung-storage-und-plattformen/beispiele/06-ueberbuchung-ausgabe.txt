@@ -1,0 +1,20 @@
+Summe der Maximalwerte: 4 x 8 GB = 32 GB
+Faktor ohne Reserve:    32 / 24 = 1.33
+Werden alle Maximalwerte gleichzeitig gebraucht, reicht der Speicher nicht: Speicherdruck, Auslagerung, VMs starten nicht.
+
+Summe der Maximalwerte: 4 x 8 GB = 32 GB
+Faktor ohne Reserve:    32 / 24 = 1.33
+Faktor mit 4 GB Reserve fuer den Host: 32 / 20 = 1.60
+Werden alle Maximalwerte gleichzeitig gebraucht, reicht der Speicher nicht: Speicherdruck, Auslagerung, VMs starten nicht.
+
+Summe der Maximalwerte: 2 x 8 GB = 16 GB
+Faktor ohne Reserve:    16 / 24 = 0.67
+
+Rechenhilfe fuer Modul 6, Aufgabe 3 (Dynamic Memory, Ueberbuchung). Nur Standardbibliothek.
+
+Aufruf:  python3 06.1-ueberbuchung.py <Host-RAM GB> <Anzahl VMs> <Maximum je VM GB> [Reserve Host GB]
+Beispiel: python3 06.1-ueberbuchung.py 24 4 8 4
+Rechne zuerst von Hand. Die Reserve fuer das Host-Betriebssystem ist im Lehrplan-Beispiel NICHT abgezogen (Faktor 1,33);
+mit Reserve ist der Faktor hoeher. Das Skript zeigt beide Werte.
+
+rc=2

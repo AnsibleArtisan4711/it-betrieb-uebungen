@@ -10,6 +10,7 @@ Homelab, Betrieb, Dokumentation und Unternehmensgründung. Alles auf Deutsch. Je
 | [technische-dokumentation](technische-dokumentation/) | Lernskript | Technische Dokumentation und Dokumentations-Governance, 17 Module |
 | [unternehmensgruendung](unternehmensgruendung/) | Lernskript | Unternehmensgründung für Tech-Startups in der EU, 12 Module |
 | [usv-shutdown](usv-shutdown/) | Übungsreihe | Geordnetes Herunterfahren bei Stromausfall, ohne echte USV |
+| [weiterbildung-it-systemtechnik](weiterbildung-it-systemtechnik/) | Übungsreihe | Weiterbildung IT-Systemtechnik (P72): 12 Module von Netzwerk, Windows Server und Linux bis Cloud, Backup, Security, Automation und Karrierepfade, 82,5 Stunden |
 
 ## Lizenz
 

@@ -1,0 +1,23 @@
+# Netplan fuer LX-UBU01 (Uebung 05.1, Teil 2). Ziel: /etc/netplan/<Datei>.yaml
+# VORHER die vom Installer erzeugte Datei sichern (cp ... ~/netplan-backup.yaml).
+# Die MAC-Adressen sind PLATZHALTER: mit "ip -br link" bzw. auf dem Host mit Get-VMNetworkAdapter ersetzen.
+# Rechte der Datei: 600 (netplan warnt sonst).
+network:
+  version: 2
+  ethernets:
+    lab0:
+      match:
+        macaddress: "00:15:5d:00:00:01"
+      set-name: lab0
+      addresses: [192.168.50.30/24]
+      routes:
+        - to: 192.168.60.0/24
+          via: 192.168.50.20
+      nameservers:
+        addresses: [192.168.50.10]
+    inet0:
+      match:
+        macaddress: "00:15:5d:00:00:02"
+      set-name: inet0
+      dhcp4: true
+      optional: true

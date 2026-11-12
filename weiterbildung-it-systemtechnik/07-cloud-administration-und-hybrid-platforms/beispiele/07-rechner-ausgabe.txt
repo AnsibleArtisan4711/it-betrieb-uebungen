@@ -1,0 +1,18 @@
+$ python3 07.1-ueberlappung.py 10.100.0.0/16 192.168.0.0/16 192.168.50.0/24 172.16.0.0/12
+10.100.0.0/16: keine Ueberlappung mit dem Labor
+192.168.0.0/16: UEBERLAPPT mit 192.168.50.0/24, 192.168.60.0/24, 192.168.100.0/24
+192.168.50.0/24: UEBERLAPPT mit 192.168.50.0/24
+172.16.0.0/12: keine Ueberlappung mit dem Labor
+
+$ python3 07.1-ueberlappung.py 10.100.1.0/24 192.168.70.0/24 192.168.100.128/25 abc
+10.100.1.0/24: keine Ueberlappung mit dem Labor
+192.168.70.0/24: keine Ueberlappung mit dem Labor
+192.168.100.128/25: UEBERLAPPT mit 192.168.100.0/24
+abc: Eingabefehler ('abc' does not appear to be an IPv4 or IPv6 network)
+rc=1
+
+$ python3 07.1-kosten-rechner.py 0,10 2   (frei erfundener Uebungspreis, KEIN echter Preis)
+Dauerbetrieb (24 h x 30 Tage):           72.00
+Betrieb 2 h pro Tag (30 Tage):        6.00
+Anteil gegenueber Dauerbetrieb:                8.3 %
+Hinweis: Datentraeger und oeffentliche Adresse kosten auch bei gestoppter (nicht freigegebener) VM; Freigeben ist nicht dasselbe wie Stoppen (nicht bestaetigt, Preisseite pruefen).

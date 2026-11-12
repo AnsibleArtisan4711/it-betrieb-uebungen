@@ -1,0 +1,10 @@
+# Testlauf 10.1-diskcheck.sh im Container (Ubuntu 24.04.5). Die Belegung im Container ist nicht die von LX-UBU01 (Wert als XX ersetzt).
+$ ./10.1-diskcheck.sh 
+OK: / zu XX% belegt (Limit 80%)
+rc=0
+$ ./10.1-diskcheck.sh 1
+WARNUNG: / zu XX% belegt (Limit 1%)
+rc=1
+$ ./10.1-diskcheck.sh abc
+Limit muss eine ganze Zahl sein.
+rc=2

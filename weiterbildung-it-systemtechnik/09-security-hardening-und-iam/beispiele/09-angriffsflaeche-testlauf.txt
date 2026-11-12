@@ -1,0 +1,2 @@
+# Testlauf 09.1-angriffsflaeche.sh im Container (Ubuntu 24.04.5, root). Die Einzelzeilen (Ports, Prozesse der Testumgebung) sind bewusst weggelassen; sie waeren nicht die von LX-UBU01.
+Skript lief fehlerfrei (rc=0); Ausgabe: Kopf 'Lauschende TCP/UDP-Ports', Tabelle von ss -tulpn, danach die Anzahl der Sockets (hier: 3).

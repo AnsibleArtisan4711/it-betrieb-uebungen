@@ -1,0 +1,20 @@
+# Testlauf 08.1-linux-sicherung.sh (Ubuntu 24.04.5, Container, root). Ziel = /tmp/sicherung-test. Kein LX-UBU01, kein scp, kein Windows-Hash.
+$ sudo ./08.1-linux-sicherung.sh -z /tmp/sicherung-test
+== Sicherung ==
+edaaea7782325f7e2d513a28c05446a0598e55850984895f8a53c74ce0380ee2  etc-backup.tar.gz
+Dauer Sicherung: (Container, Zeit nicht aussagekraeftig)
+== Teil-Wiederherstellung von etc/hostname ==
+Vergleich OK: etc/hostname ist identisch mit dem Original.
+== Archivpruefung ==
+etc-backup.tar.gz: OK
+rc=0
+
+# Negativtest 1: Archiv nach der Sicherung veraendert -> Pruefsumme muss fehlschlagen
+etc-backup.tar.gz: FAILED
+sha256sum: WARNING: 1 computed checksum did NOT match
+
+# Negativtest 2: Restore-Datei, die es nicht gibt
+== Teil-Wiederherstellung von etc/gibt-es-nicht ==
+tar: etc/gibt-es-nicht: Not found in archive
+tar: Exiting with failure status due to previous errors
+rc=2

@@ -1,0 +1,33 @@
+# Testlauf 10.1-skript-freigeben.ps1 und 10.1-start-geprueft.ps1 unter PowerShell 7.4.6 auf Linux (Container). Auf Windows NICHT ausgefuehrt.
+$ ./10.1-start-geprueft.ps1 -Skript /tmp/gov/hallo.ps1 -Liste /tmp/gov/freigabe.csv
+Write-Error: Freigabeliste '/tmp/gov/freigabe.csv' nicht gefunden.
+rc=1
+$ ./10.1-skript-freigeben.ps1 -Skript /tmp/gov/hallo.ps1 -Version 1.0 -Freigeber Rolle-Skriptfreigabe -Liste /tmp/gov/freigabe.csv -WhatIf
+What if: Performing the operation "Freigabe hallo.ps1 1.0 eintragen" on target "/tmp/gov/freigabe.csv".
+rc=0
+$ ./10.1-skript-freigeben.ps1 -Skript /tmp/gov/hallo.ps1 -Version 1.0 -Freigeber Rolle-Skriptfreigabe -Liste /tmp/gov/freigabe.csv
+Eingetragen: hallo.ps1 1.0
+rc=0
+$ ./10.1-start-geprueft.ps1 -Skript /tmp/gov/hallo.ps1 -Liste /tmp/gov/freigabe.csv
+Hash OK (hallo.ps1, Version 1.0, freigegeben von Rolle-Skriptfreigabe am 2026-11-12).
+Nutzlast laeuft
+rc=0
+# Skript nachtraeglich veraendert:
+$ ./10.1-start-geprueft.ps1 -Skript /tmp/gov/hallo.ps1 -Liste /tmp/gov/freigabe.csv
+Write-Error: Hash von hallo.ps1 weicht von der Freigabe ab (Version 1.0). Nicht gestartet.
+rc=1
+$ ./10.1-skript-freigeben.ps1 -Skript /tmp/gov/hallo.ps1 -Version 1.0 -Freigeber Rolle-Skriptfreigabe -Liste /tmp/gov/freigabe.csv
+Exception: 10.1-skript-freigeben.ps1:24
+Line |
+  24 |  … ne $hash) { throw "Version $Version von $name ist mit anderem Hash fr …
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Version 1.0 von hallo.ps1 ist mit anderem Hash freigegeben. Neue Version vergeben.
+rc=1
+$ ./10.1-skript-freigeben.ps1 -Skript /tmp/gov/hallo.ps1 -Version 1.1 -Freigeber Rolle-Skriptfreigabe -Liste /tmp/gov/freigabe.csv
+Eingetragen: hallo.ps1 1.1
+rc=0
+$ ./10.1-start-geprueft.ps1 -Skript /tmp/gov/hallo.ps1 -Liste /tmp/gov/freigabe.csv
+Hash OK (hallo.ps1, Version 1.1, freigegeben von Rolle-Skriptfreigabe am 2026-11-12).
+Nutzlast laeuft
+manipuliert
+rc=0

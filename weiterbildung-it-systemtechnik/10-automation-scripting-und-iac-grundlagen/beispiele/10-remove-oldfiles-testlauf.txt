@@ -1,0 +1,34 @@
+# Testlauf 10.1-Remove-OldFiles.ps1 unter PowerShell 7.4.6 auf Linux (Container). -Basis zeigt auf einen Testordner (Ersatz fuer C:\Skripte\Test).
+# Auf Windows PowerShell 5.1 NICHT ausgefuehrt. Hinweis: Der Ordner selbst (Path = Basis) wird abgelehnt; Path muss ein UNTERordner sein.
+$ -Path /tmp/skripttest/Test/dateien -Days 30 -Basis /tmp/skripttest/Test -WhatIf
+What if: Performing the operation "Loeschen (aelter als 30 Tage)" on target "/tmp/skripttest/Test/dateien/alt1.txt".
+What if: Performing the operation "Loeschen (aelter als 30 Tage)" on target "/tmp/skripttest/Test/dateien/alt2.txt".
+What if: Performing the operation "Loeschen (aelter als 30 Tage)" on target "/tmp/skripttest/Test/dateien/alt3.txt".
+Gefunden: 3 Datei(en) aelter als 30 Tage.
+rc=0
+  Testordner/dateien: alt1.txt alt2.txt alt3.txt neu.txt 
+$ -Path /tmp/skripttest/Test/dateien -Days 30 -Basis /tmp/skripttest/Test
+Gefunden: 3 Datei(en) aelter als 30 Tage.
+rc=0
+  Testordner/dateien: neu.txt 
+$ -Path /tmp/skripttest/Test -Days 30 -Basis /tmp/skripttest/Test
+Write-Error: Pfad '/tmp/skripttest/Test' liegt nicht unterhalb von '/tmp/skripttest/Test'. Abbruch, nichts geloescht.
+rc=1
+  Testordner/dateien: neu.txt 
+$ -Path /tmp/skripttest/aussen -Days 30 -Basis /tmp/skripttest/Test
+Write-Error: Pfad '/tmp/skripttest/aussen' liegt nicht unterhalb von '/tmp/skripttest/Test'. Abbruch, nichts geloescht.
+rc=1
+  Testordner/dateien: neu.txt 
+$ -Path /tmp/skripttest/Test/../aussen -Days 30 -Basis /tmp/skripttest/Test
+Write-Error: Pfad '/tmp/skripttest/aussen' liegt nicht unterhalb von '/tmp/skripttest/Test'. Abbruch, nichts geloescht.
+rc=1
+  Testordner/dateien: neu.txt 
+$ -Path /tmp/skripttest/TestEvil -Days 30 -Basis /tmp/skripttest/Test
+Write-Error: Pfad '/tmp/skripttest/TestEvil' liegt nicht unterhalb von '/tmp/skripttest/Test'. Abbruch, nichts geloescht.
+rc=1
+  Testordner/dateien: neu.txt 
+$ -Path /tmp/skripttest/Test/dateien -Days 0 -Basis /tmp/skripttest/Test
+10.1-Remove-OldFiles.ps1: Cannot validate argument on parameter 'Days'. The 0 argument is less than the minimum allowed range of 1. Supply an argument that is greater than or equal to 1 and then try the command again.
+rc=1
+  Testordner/dateien: neu.txt 
+Fremddateien noch da: aussen=fremd.txt TestEvil=fremd.txt

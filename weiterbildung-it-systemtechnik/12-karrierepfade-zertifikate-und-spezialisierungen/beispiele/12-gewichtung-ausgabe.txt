@@ -1,0 +1,12 @@
+# Ausgabe 12.1-gewichtung.py. Die Zahlen sind ERFUNDENE Beispielbewertungen, keine Empfehlung und keine Marktdaten.
+$ python3 12.1-gewichtung.py beispiel.csv
+Eigene Einschaetzung, keine Marktdaten. Kriterien: Lernaufwand, Naehe zur Lehre, Passung zu mir
+1. Modern Workplace: 38 von 50 (76 %)
+2. Cloud: 38 von 50 (76 %)
+3. Linux/Automation: 30 von 50 (60 %)
+rc=0
+# Negativtests
+Eingabefehler: Bewertungen in 'X' muessen zwischen 1 und 5 liegen.
+rc=1
+Eingabefehler: [Errno 2] No such file or directory: '/tmp/nix.csv'
+rc=1

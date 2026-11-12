@@ -1,0 +1,10 @@
+# Ausgabe 09.1-patch-prioritaet.py (Beispielmeldungen A, B, C der Uebung). Uebungsregel, kein Standard.
+Uebungsregel: 1. Ausnutzung bekannt, 2. Erreichbarkeit, 3. Schwere (kein Standard!)
+1. Meldung A: Schwere kritisch, internet, Ausnutzung bekannt: ja
+2. Meldung C: Schwere mittel, internet, Ausnutzung bekannt: nein
+3. Meldung B: Schwere hoch, intern, Ausnutzung bekannt: nein
+# Negativtests
+Eingabefehler: Unbekannter Wert 'sehr' in Meldung X
+rc=1
+Eingabefehler: [Errno 2] No such file or directory: '/tmp/nix.csv'
+rc=1

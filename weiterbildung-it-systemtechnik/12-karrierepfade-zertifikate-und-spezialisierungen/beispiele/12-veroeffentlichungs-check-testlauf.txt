@@ -1,0 +1,12 @@
+# Testlauf 12.1-veroeffentlichungs-check.py mit ERFUNDENEN Testdaten (Ordner mit absichtlich eingebauten Funden). Treffer selbst werden nicht ausgegeben.
+ok.ps1:5: Kennwort/Schluessel-Zuweisung
+docs/test.md:1: Kennwort/Schluessel-Zuweisung
+docs/test.md:2: GUID
+docs/test.md:3: Oeffentliche IPv4-Adresse
+docs/test.md:4: E-Mail
+docs/test.md:5: Privater Schluessel
+2 Textdatei(en) geprueft, 6 Fund(e). Heuristik: ersetzt keine Durchsicht per Hand.
+rc=1
+Aufruf: python3 -I 12.1-veroeffentlichungs-check.py ORDNER
+rc=2
+# Anwendung auf den Kursordner weiterbildung-it-systemtechnik/ (Stand der Erstellung): 116 Textdateien geprueft, 0 Funde. Nach dem ersten Lauf waren 2 Funde Fehlalarme (Read-Host); die Regel wurde danach angepasst.
