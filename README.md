@@ -23,6 +23,7 @@ Homelab, Betrieb, Dokumentation und Unternehmensgründung. Alles auf Deutsch. Je
 | [troubleshooting-methodik](troubleshooting-methodik/) | Übungsreihe | Systematische Fehlersuche in Windows und Linux mit erfundenen Beispieldaten und Hilfsskripten, Labor nur für Modul 8 (P50), 8 Module, 35,25 Stunden |
 | [projektmanagement-fuer-administratoren](projektmanagement-fuer-administratoren/) | Übungsreihe | Projektmanagement klassisch und agil mit Fallstudien Server-Migration und Client-Rollout, ohne Labor (P51), 8 Module, 34,5 Stunden |
 | [it-englisch-fuer-administratoren](it-englisch-fuer-administratoren/) | Übungsreihe | Fachenglisch für die IT-Administration: Wortschatz, Dokumentation, Tickets, Telefonate, Berichte, ohne Labor (P52), 8 Module, 34,5 Stunden |
+| [bewerbungstraining-fuer-it-berufe](bewerbungstraining-fuer-it-berufe/) | Übungsreihe | Bewerbung, Vorstellungsgespräch und Jobsuche für IT-Berufe mit erfundener Beispielperson, ohne Labor (P73), 8 Module, 36 Stunden, keine Rechtsberatung |
 
 ## Lizenz
 

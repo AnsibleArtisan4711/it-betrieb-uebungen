@@ -1,0 +1,8 @@
+$ python entscheidung.py kriterien_beispiel.csv
+Kriterien: 1 Muss, 6 Soll/Kann
+
+Angebot                                        Summe  Prozent  Muss-Kriterium
+Nordlicht Systemhaus (Systemadministration)   83/110    75.5%  erfüllt
+Alpenbau Versorgung (IT-Support)              72/110    65.5%  erfüllt
+
+Höchste Summe unter den zulässigen Angeboten: Nordlicht Systemhaus (Systemadministration)

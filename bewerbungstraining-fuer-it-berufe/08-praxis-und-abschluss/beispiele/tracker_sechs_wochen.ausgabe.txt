@@ -1,0 +1,10 @@
+$ python ../02-jobsuche/tracker_auswerten.py tracker_sechs_wochen.csv
+Einträge gesamt: 24
+Rücklaufquote gesamt: 14 von 24 = 58.3%
+Einladungsquote (nur Bewerbungen): 4 von 18 = 22.2%
+
+Kanal        Einträge   Reaktion     Quote
+portal             12          5     41.7%
+direkt              4          3     75.0%
+vermittler          2          2    100.0%
+netzwerk            6          4     66.7%

@@ -1,0 +1,25 @@
+datum,firma,kanal,art,status
+2026-11-09,Firma P01 (fiktiv),portal,bewerbung,einladung
+2026-11-09,Firma P02 (fiktiv),portal,bewerbung,absage
+2026-11-10,Firma D01 (fiktiv),direkt,bewerbung,einladung
+2026-11-10,Firma P03 (fiktiv),portal,bewerbung,offen
+2026-11-11,Firma P04 (fiktiv),portal,bewerbung,offen
+2026-11-11,Vermittler V01 (fiktiv),vermittler,bewerbung,reaktion
+2026-11-12,Person N01,netzwerk,kontaktanfrage,reaktion
+2026-11-12,Person N02,netzwerk,kontaktanfrage,offen
+2026-11-13,Person N03,netzwerk,kontaktanfrage,reaktion
+2026-11-16,Firma P05 (fiktiv),portal,bewerbung,absage
+2026-11-17,Firma P06 (fiktiv),portal,bewerbung,offen
+2026-11-18,Firma D02 (fiktiv),direkt,bewerbung,reaktion
+2026-11-19,Person N04,netzwerk,kontaktanfrage,reaktion
+2026-11-20,Vermittler V02 (fiktiv),vermittler,bewerbung,einladung
+2026-11-23,Firma P07 (fiktiv),portal,bewerbung,offen
+2026-11-24,Firma P08 (fiktiv),portal,bewerbung,absage
+2026-11-25,Firma D03 (fiktiv),direkt,bewerbung,einladung
+2026-11-26,Person N05,netzwerk,kontaktanfrage,offen
+2026-11-30,Firma P09 (fiktiv),portal,bewerbung,offen
+2026-12-01,Firma P10 (fiktiv),portal,bewerbung,absage
+2026-12-02,Firma D04 (fiktiv),direkt,bewerbung,offen
+2026-12-03,Person N06,netzwerk,kontaktanfrage,reaktion
+2026-12-07,Firma P11 (fiktiv),portal,bewerbung,offen
+2026-12-08,Firma P12 (fiktiv),portal,bewerbung,offen

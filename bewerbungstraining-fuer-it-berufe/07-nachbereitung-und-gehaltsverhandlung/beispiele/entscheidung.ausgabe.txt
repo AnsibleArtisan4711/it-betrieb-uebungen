@@ -1,0 +1,8 @@
+$ python ../01-standortbestimmung-und-ziele/entscheidung.py entscheidungsmatrix.csv
+Kriterien: 1 Muss, 6 Soll/Kann
+
+Angebot                        Summe  Prozent  Muss-Kriterium
+Angebot Kellerwerk Software   94/120    78.3%  erfüllt
+Angebot Brunner Haustechnik   79/120    65.8%  erfüllt
+
+Höchste Summe unter den zulässigen Angeboten: Angebot Kellerwerk Software

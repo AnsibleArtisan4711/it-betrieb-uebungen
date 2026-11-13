@@ -1,0 +1,13 @@
+datum,firma,kanal,art,status
+2026-11-09,Kellerwerk Software GmbH,portal,bewerbung,einladung
+2026-11-09,Brunner Haustechnik GmbH,portal,bewerbung,absage
+2026-11-10,Alpenbau Versorgung AG,direkt,bewerbung,offen
+2026-11-10,Nordlicht Systemhaus GmbH,portal,bewerbung,offen
+2026-11-11,Seeblick Rechenzentrum GmbH,portal,bewerbung,offen
+2026-11-11,Personalvermittlung Hofer & Partner (fiktiv),vermittler,bewerbung,reaktion
+2026-11-12,Person A (IT-Leitung),netzwerk,kontaktanfrage,reaktion
+2026-11-12,Person B (Systemadministration),netzwerk,kontaktanfrage,offen
+2026-11-12,Person C (Teamleitung Support),netzwerk,kontaktanfrage,reaktion
+2026-11-13,Person D (Systemtechnik),netzwerk,kontaktanfrage,offen
+2026-11-13,Person E (Netzwerk),netzwerk,kontaktanfrage,offen
+2026-11-13,Tannen-IT Dienstleistungen (fiktiv),direkt,bewerbung,offen

@@ -1,0 +1,10 @@
+$ python tracker_auswerten.py tracker.csv
+Einträge gesamt: 12
+Rücklaufquote gesamt: 5 von 12 = 41.7%
+Einladungsquote (nur Bewerbungen): 1 von 7 = 14.3%
+
+Kanal        Einträge   Reaktion     Quote
+portal              4          2     50.0%
+direkt              2          0      0.0%
+vermittler          1          1    100.0%
+netzwerk            5          2     40.0%
