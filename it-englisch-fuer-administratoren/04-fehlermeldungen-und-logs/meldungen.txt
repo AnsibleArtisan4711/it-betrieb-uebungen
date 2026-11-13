@@ -1,0 +1,7 @@
+2026-11-10 08:41:02 backup-agent: Starting job nightly-files
+2026-11-10 08:41:09 backup-agent: Error: connection timed out while contacting 10.80.0.10:445
+2026-11-10 08:42:15 webapp: Request failed: Connection refused (10.80.0.20:8080)
+2026-11-10 08:43:30 sync-tool: Cannot write file: No space left on device
+2026-11-10 08:44:02 shareclient: Access is denied.
+2026-11-10 08:45:12 resolver: lookup failed: Name or service not known (srv01.lab.internal)
+2026-11-10 08:46:00 webapp: Retry scheduled in 60 seconds

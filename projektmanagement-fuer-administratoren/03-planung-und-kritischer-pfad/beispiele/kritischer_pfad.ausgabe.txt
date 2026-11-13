@@ -1,0 +1,14 @@
+ID  Vorgang                              Dauer  FS  FE  SS  SE Puffer
+A   Bestandsaufnahme alter Dateiserver       2   0   2   0   2      0  kritisch
+B   Zielsystem planen                        3   2   5   2   5      0  kritisch
+C   Neuen Server bereitstellen               4   5   9   5   9      0  kritisch
+D   Testmigration der Daten                  3   9  12   9  12      0  kritisch
+E   Anwender informieren                     2   5   7  10  12      5
+F   Migration am Wochenende                  2  12  14  12  14      0  kritisch
+G   Abnahme durch Fachabteilung              2  14  16  14  16      0  kritisch
+H   Dokumentation erstellen                  3  12  15  13  16      1
+I   Alten Server abschalten                  1  16  17  16  17      0  kritisch
+
+Projektdauer: 17 Tage
+Kritischer Pfad: A -> B -> C -> D -> F -> G -> I (Summe 17 Tage)
+Hinweis: Tage sind durchgezählt, Wochenenden und Feiertage sind nicht berücksichtigt.

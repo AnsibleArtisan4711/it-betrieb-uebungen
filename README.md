@@ -20,6 +20,9 @@ Homelab, Betrieb, Dokumentation und Unternehmensgründung. Alles auf Deutsch. Je
 | [datenschutz-dsgvo-in-der-it](datenschutz-dsgvo-in-der-it/) | Übungsreihe | Datenschutz (DSGVO) in der IT mit Fallstudien und Rechenhilfen, ohne Labor (P47), 9 Module, 36,75 Stunden, kein Rechtsrat |
 | [nis2-fuer-administratoren](nis2-fuer-administratoren/) | Übungsreihe | NIS2 und NISG 2026 für Administratoren mit Fallstudien und Rechenhilfen, ohne Labor (P48), 8 Module, 34,5 Stunden, kein Rechtsrat |
 | [iso-27001-grundlagen](iso-27001-grundlagen/) | Übungsreihe | Aufbau eines ISMS nach ISO/IEC 27001 mit Fallstudien und Rechenhilfen, ohne Labor (P49), 9 Module, 36,75 Stunden, ohne Normtext |
+| [troubleshooting-methodik](troubleshooting-methodik/) | Übungsreihe | Systematische Fehlersuche in Windows und Linux mit erfundenen Beispieldaten und Hilfsskripten, Labor nur für Modul 8 (P50), 8 Module, 35,25 Stunden |
+| [projektmanagement-fuer-administratoren](projektmanagement-fuer-administratoren/) | Übungsreihe | Projektmanagement klassisch und agil mit Fallstudien Server-Migration und Client-Rollout, ohne Labor (P51), 8 Module, 34,5 Stunden |
+| [it-englisch-fuer-administratoren](it-englisch-fuer-administratoren/) | Übungsreihe | Fachenglisch für die IT-Administration: Wortschatz, Dokumentation, Tickets, Telefonate, Berichte, ohne Labor (P52), 8 Module, 34,5 Stunden |
 
 ## Lizenz
 

@@ -1,0 +1,5 @@
+Routenverfolgung zu srv01.lab.internal [10.80.0.10]
+ 1    <1 ms    <1 ms    <1 ms  10.80.0.1
+ 2     1 ms     1 ms     2 ms  10.80.1.1
+ 3     2 ms     1 ms     1 ms  10.80.0.10
+Ablaufverfolgung beendet.

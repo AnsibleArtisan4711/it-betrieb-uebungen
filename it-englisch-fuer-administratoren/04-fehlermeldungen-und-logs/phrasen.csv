@@ -1,0 +1,9 @@
+englisch,deutsch,hinweis
+access is denied,Zugriff verweigert,Berechtigung oder Konto prüfen
+permission denied,Zugriff verweigert,Berechtigung der Datei oder des Verzeichnisses prüfen
+connection refused,Verbindung abgelehnt,Auf dem Ziel lauscht kein Dienst auf dem Port oder eine Firewall weist ab
+connection timed out,Zeitüberschreitung bei der Verbindung,Ziel nicht erreichbar oder Pakete werden verworfen
+name or service not known,Name oder Dienst unbekannt,Namensauflösung prüfen
+no space left on device,Kein Speicherplatz mehr auf dem Gerät,Belegung des Laufwerks prüfen
+the network path was not found,Der Netzwerkpfad wurde nicht gefunden,Name und Erreichbarkeit des Servers prüfen
+service unavailable,Dienst nicht verfügbar,Dienststatus und Protokoll des Dienstes prüfen

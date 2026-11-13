@@ -1,0 +1,21 @@
+Symptom gemeldet: 2026-11-10 08:42:00
+13 Ereignisse aus 2 Systemen
+
+   07:55:03 ( -47 min) SRV01 Information Service Control Manager: Dienst Windows Update wurde gestartet
+   08:02:30 ( -40 min) LNX01 Information systemd: Started Daily apt download activities
+   08:10:41 ( -32 min) SRV01 Information Microsoft-Windows-DNS-Server: DNS-Server wurde gestartet
+>> 08:31:18 ( -11 min) SRV01 Information Microsoft-Windows-GroupPolicy: Gruppenrichtlinie wurde angewendet
+>> 08:35:09 (  -7 min) LNX01 Information nginx: Konfiguration neu geladen (reload)
+>> 08:36:47 (  -6 min) SRV01 Information Service Control Manager: Dienst DNS-Server wurde beendet
+>> 08:36:52 (  -6 min) SRV01 Warning     Microsoft-Windows-DNS-Server: Der DNS-Server hat einen kritischen Fehler von Active Directory erhalten
+>> 08:41:55 (  -1 min) LNX01 Warning     nginx: upstream antwortet langsam (3 s)
+   08:43:02 (  +1 min) LNX01 Error       nginx: Verbindung zu srv01.lab.internal nicht möglich: Name wird nicht aufgelöst
+   08:44:20 (  +2 min) SRV01 Error       Microsoft-Windows-DNS-Server: DNS-Server konnte Zone lab.internal nicht laden
+   08:50:36 (  +8 min) LNX01 Error       nginx: Verbindung zu srv01.lab.internal nicht möglich: Name wird nicht aufgelöst
+   09:05:11 ( +23 min) SRV01 Information Service Control Manager: Dienst DNS-Server wurde gestartet
+   09:06:20 ( +24 min) LNX01 Information nginx: Verbindung zu srv01.lab.internal hergestellt
+
+Warnungen und Fehler in den 15 Minuten vor dem Symptom: 2
+  08:36:52 SRV01: Der DNS-Server hat einen kritischen Fehler von Active Directory erhalten
+  08:41:55 LNX01: upstream antwortet langsam (3 s)
+Hinweis: Zeitliche Nähe ist ein Indiz, kein Beweis für die Ursache.

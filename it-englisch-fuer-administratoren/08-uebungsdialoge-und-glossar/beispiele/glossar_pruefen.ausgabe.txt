@@ -1,0 +1,38 @@
+24 Einträge in 6 Bereichen
+Probleme: keine
+
+Betrieb (8)
+  Fehlerbehebung         troubleshooting
+  Protokolldatei         log file
+  Rückfallplan           rollback plan
+  Sicherung              backup
+  Störung                incident / outage
+  Wartungsfenster        maintenance window
+  Wiederherstellung      restore / recovery
+  Änderungsantrag        change request
+
+Betriebssystem (3)
+  Dienst                 service
+  Neustart               restart / reboot
+  Treiber                driver
+
+Hardware (4)
+  Arbeitsspeicher        memory (RAM)
+  Festplatte             hard disk drive (HDD)
+  Halbleiterlaufwerk     solid-state drive (SSD)
+  Netzteil               power supply unit (PSU)
+
+Netzwerk (5)
+  Namensauflösung        name resolution
+  Netzwerkkabel          network cable
+  Standardgateway        default gateway
+  Verbindung abgelehnt   connection refused
+  Zeitüberschreitung     timeout
+
+Sicherheit (2)
+  Benutzerkonto          user account
+  Berechtigung           permission
+
+Software (2)
+  Aktualisierung         update
+  Anmeldung              login / sign-in

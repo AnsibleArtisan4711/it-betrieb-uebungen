@@ -1,0 +1,11 @@
+2026-11-10 08:38:02 INFO  intranet: Anfrage /start 200 41 ms
+2026-11-10 08:39:15 INFO  intranet: Anfrage /start 200 38 ms
+2026-11-10 08:41:55 WARN  intranet: Abfrage der Benutzerdaten langsam (3012 ms)
+2026-11-10 08:42:31 ERROR intranet: Benutzerdienst nicht erreichbar: srv01.lab.internal
+2026-11-10 08:42:40 ERROR intranet: Benutzerdienst nicht erreichbar: srv01.lab.internal
+2026-11-10 08:43:02 ERROR intranet: Benutzerdienst nicht erreichbar: srv01.lab.internal
+2026-11-10 08:44:10 WARN  intranet: Wiederholung 1 von 3
+2026-11-10 08:44:30 ERROR intranet: Benutzerdienst nicht erreichbar: srv01.lab.internal
+2026-11-10 08:50:36 ERROR intranet: Benutzerdienst nicht erreichbar: srv01.lab.internal
+2026-11-10 09:06:20 INFO  intranet: Benutzerdienst erreichbar
+2026-11-10 09:07:01 INFO  intranet: Anfrage /start 200 44 ms

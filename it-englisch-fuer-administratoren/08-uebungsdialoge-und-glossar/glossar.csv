@@ -1,0 +1,25 @@
+deutsch,englisch,bereich
+Arbeitsspeicher,memory (RAM),Hardware
+Festplatte,hard disk drive (HDD),Hardware
+Halbleiterlaufwerk,solid-state drive (SSD),Hardware
+Netzteil,power supply unit (PSU),Hardware
+Anmeldung,login / sign-in,Software
+Aktualisierung,update,Software
+Berechtigung,permission,Sicherheit
+Benutzerkonto,user account,Sicherheit
+Sicherung,backup,Betrieb
+Wiederherstellung,restore / recovery,Betrieb
+Störung,incident / outage,Betrieb
+Wartungsfenster,maintenance window,Betrieb
+Dienst,service,Betriebssystem
+Treiber,driver,Betriebssystem
+Neustart,restart / reboot,Betriebssystem
+Netzwerkkabel,network cable,Netzwerk
+Zeitüberschreitung,timeout,Netzwerk
+Namensauflösung,name resolution,Netzwerk
+Standardgateway,default gateway,Netzwerk
+Verbindung abgelehnt,connection refused,Netzwerk
+Protokolldatei,log file,Betrieb
+Fehlerbehebung,troubleshooting,Betrieb
+Rückfallplan,rollback plan,Betrieb
+Änderungsantrag,change request,Betrieb

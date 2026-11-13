@@ -1,0 +1,25 @@
+fall,schicht,test,ziel,ergebnis
+A,1 Verbindung,Netzwerkadapter verbunden,CL01,ok
+A,2 Adresse,IP-Adresse aus 10.80.0.0/24 vorhanden,CL01,ok
+A,3 Erreichbarkeit,Ping auf 10.80.0.10,SRV01,ok
+A,3 Erreichbarkeit,Ping auf 10.80.0.20,LNX01,ok
+A,4 Namensauflösung,Name srv01.lab.internal auflösen,SRV01,fehler
+A,5 Port und Dienst,TCP 8080 auf 10.80.0.20,LNX01,ok
+A,6 Anwendung,Intranet-Seite im Browser,LNX01,fehler
+B,1 Verbindung,Netzwerkadapter verbunden,CL01,ok
+B,2 Adresse,IP-Adresse aus 10.80.0.0/24 vorhanden,CL01,ok
+B,3 Erreichbarkeit,Ping auf 10.80.0.10,SRV01,ok
+B,4 Namensauflösung,Name srv01.lab.internal auflösen,SRV01,ok
+B,5 Port und Dienst,TCP 445 auf 10.80.0.10,SRV01,fehler
+B,6 Anwendung,Freigabe \\SRV01\Daten öffnen,SRV01,fehler
+C,1 Verbindung,Netzwerkadapter verbunden,CL01,fehler
+C,2 Adresse,IP-Adresse aus 10.80.0.0/24 vorhanden,CL01,fehler
+C,3 Erreichbarkeit,Ping auf 10.80.0.10,SRV01,fehler
+C,4 Namensauflösung,Name srv01.lab.internal auflösen,SRV01,fehler
+C,5 Port und Dienst,TCP 445 auf 10.80.0.10,SRV01,fehler
+D,1 Verbindung,Netzwerkadapter verbunden,CL01,ok
+D,2 Adresse,IP-Adresse aus 10.80.0.0/24 vorhanden,CL01,ok
+D,3 Erreichbarkeit,Ping auf 10.80.0.20,LNX01,ok
+D,4 Namensauflösung,Name lnx01.lab.internal auflösen,LNX01,ok
+D,5 Port und Dienst,TCP 8080 auf 10.80.0.20,LNX01,fehler
+D,6 Anwendung,Intranet-Seite im Browser,LNX01,fehler

@@ -1,0 +1,8 @@
+zeit,quelle,level,id,text
+2026-11-10 07:55:03,Service Control Manager,Information,7036,Dienst Windows Update wurde gestartet
+2026-11-10 08:10:41,Microsoft-Windows-DNS-Server,Information,2,DNS-Server wurde gestartet
+2026-11-10 08:31:18,Microsoft-Windows-GroupPolicy,Information,1502,Gruppenrichtlinie wurde angewendet
+2026-11-10 08:36:47,Service Control Manager,Information,7036,Dienst DNS-Server wurde beendet
+2026-11-10 08:36:52,Microsoft-Windows-DNS-Server,Warning,4015,Der DNS-Server hat einen kritischen Fehler von Active Directory erhalten
+2026-11-10 08:44:20,Microsoft-Windows-DNS-Server,Error,4000,DNS-Server konnte Zone lab.internal nicht laden
+2026-11-10 09:05:11,Service Control Manager,Information,7036,Dienst DNS-Server wurde gestartet

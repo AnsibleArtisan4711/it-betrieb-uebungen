@@ -1,0 +1,10 @@
+id,vorgang,dauer_tage,vorgaenger
+A,Bestandsaufnahme alter Dateiserver,2,
+B,Zielsystem planen,3,A
+C,Neuen Server bereitstellen,4,B
+D,Testmigration der Daten,3,C
+E,Anwender informieren,2,B
+F,Migration am Wochenende,2,D;E
+G,Abnahme durch Fachabteilung,2,F
+H,Dokumentation erstellen,3,D
+I,Alten Server abschalten,1,G;H

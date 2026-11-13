@@ -1,0 +1,8 @@
+Zeilen je Stufe: {'ERROR': 5, 'INFO': 4, 'WARN': 2}
+Erster Fehler: 2026-11-10 08:42:31 - Benutzerdienst nicht erreichbar: srv01.lab.internal
+Häufigste Fehlermeldung (5x): Benutzerdienst nicht erreichbar: srv01.lab.internal
+Fehler je Minute:
+  2026-11-10 08:42 ## (2)
+  2026-11-10 08:43 # (1)
+  2026-11-10 08:44 # (1)
+  2026-11-10 08:50 # (1)

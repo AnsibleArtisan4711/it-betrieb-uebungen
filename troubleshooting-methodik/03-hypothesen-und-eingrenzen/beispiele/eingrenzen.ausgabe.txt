@@ -1,0 +1,41 @@
+Fall A: 7 Tests
+  ok     1 Verbindung       Netzwerkadapter verbunden
+  ok     2 Adresse          IP-Adresse aus 10.80.0.0/24 vorhanden
+  ok     3 Erreichbarkeit   Ping auf 10.80.0.10
+  ok     3 Erreichbarkeit   Ping auf 10.80.0.20
+  FEHLER 4 Namensauflösung  Name srv01.lab.internal auflösen
+  ok     5 Port und Dienst  TCP 8080 auf 10.80.0.20
+  FEHLER 6 Anwendung        Intranet-Seite im Browser
+  Erste Abweichung: 4 Namensauflösung (Name srv01.lab.internal auflösen)
+  Nächster Schritt: DNS-Server des Clients und DNS-Einträge prüfen
+  Achtung: höhere Schichten sind ok, Reihenfolge der Tests und Messung prüfen
+
+Fall B: 6 Tests
+  ok     1 Verbindung       Netzwerkadapter verbunden
+  ok     2 Adresse          IP-Adresse aus 10.80.0.0/24 vorhanden
+  ok     3 Erreichbarkeit   Ping auf 10.80.0.10
+  ok     4 Namensauflösung  Name srv01.lab.internal auflösen
+  FEHLER 5 Port und Dienst  TCP 445 auf 10.80.0.10
+  FEHLER 6 Anwendung        Freigabe \\SRV01\Daten öffnen
+  Erste Abweichung: 5 Port und Dienst (TCP 445 auf 10.80.0.10)
+  Nächster Schritt: Dienst läuft? Lauscht er? Firewall auf dem Zielsystem?
+
+Fall C: 5 Tests
+  FEHLER 1 Verbindung       Netzwerkadapter verbunden
+  FEHLER 2 Adresse          IP-Adresse aus 10.80.0.0/24 vorhanden
+  FEHLER 3 Erreichbarkeit   Ping auf 10.80.0.10
+  FEHLER 4 Namensauflösung  Name srv01.lab.internal auflösen
+  FEHLER 5 Port und Dienst  TCP 445 auf 10.80.0.10
+  Erste Abweichung: 1 Verbindung (Netzwerkadapter verbunden)
+  Nächster Schritt: Adapter, Kabel, virtueller Switch prüfen
+
+Fall D: 6 Tests
+  ok     1 Verbindung       Netzwerkadapter verbunden
+  ok     2 Adresse          IP-Adresse aus 10.80.0.0/24 vorhanden
+  ok     3 Erreichbarkeit   Ping auf 10.80.0.20
+  ok     4 Namensauflösung  Name lnx01.lab.internal auflösen
+  FEHLER 5 Port und Dienst  TCP 8080 auf 10.80.0.20
+  FEHLER 6 Anwendung        Intranet-Seite im Browser
+  Erste Abweichung: 5 Port und Dienst (TCP 8080 auf 10.80.0.20)
+  Nächster Schritt: Dienst läuft? Lauscht er? Firewall auf dem Zielsystem?
+

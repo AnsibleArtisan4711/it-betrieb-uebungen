@@ -1,0 +1,13 @@
+Aufgabe                           O    M    P      E     s
+Image vorbereiten                 6   10   20   11.0   2.3
+Clients inventarisieren           4    6   12    6.7   1.3
+Software paketieren               8   16   40   18.7   5.3
+Pilotgruppe (5 Clients)           6    8   16    9.0   1.7
+Rollout 20 Clients               16   24   48   26.7   5.3
+Nacharbeit und Anwenderhilfe      8   12   30   14.3   3.7
+Dokumentation und Übergabe        4    6   10    6.3   1.0
+
+Summe der Erwartungswerte: 92.7 h
+Streuung der Summe: 9.0 h
+Planungswert (Erwartung + 1 Streuung): 101.7 h
+Das entspricht bei 6 Stunden Projektarbeit pro Tag etwa 16.9 Arbeitstagen.

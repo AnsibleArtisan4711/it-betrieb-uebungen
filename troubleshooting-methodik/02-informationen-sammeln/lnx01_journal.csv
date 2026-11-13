@@ -1,0 +1,7 @@
+zeit,quelle,level,id,text
+2026-11-10 08:02:30,systemd,Information,-,Started Daily apt download activities
+2026-11-10 08:35:09,nginx,Information,-,Konfiguration neu geladen (reload)
+2026-11-10 08:41:55,nginx,Warning,-,upstream antwortet langsam (3 s)
+2026-11-10 08:43:02,nginx,Error,-,Verbindung zu srv01.lab.internal nicht möglich: Name wird nicht aufgelöst
+2026-11-10 08:50:36,nginx,Error,-,Verbindung zu srv01.lab.internal nicht möglich: Name wird nicht aufgelöst
+2026-11-10 09:06:20,nginx,Information,-,Verbindung zu srv01.lab.internal hergestellt
