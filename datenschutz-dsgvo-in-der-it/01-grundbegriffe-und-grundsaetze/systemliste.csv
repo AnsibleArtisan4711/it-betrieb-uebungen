@@ -1,0 +1,10 @@
+System,Zweck,Datenarten,Betroffene,Zustaendig,Dienstleister
+Buchungssystem,Reisebuchungen abwickeln,Name; Adresse; Geburtsdatum; Passnummer; Zahlungsdaten,Kunden,Vertrieb,keiner
+Kundenportal,Selbstbedienung für Kunden,Name; E-Mail; Buchungshistorie; IP-Adresse,Kunden,IT-Leitung,Hosting GmbH
+Newsletter-Dienst,Marketing per E-Mail,E-Mail; Vorname; Interessen; Öffnungsstatistik,Interessenten; Kunden,Marketing,Mailversand AG
+E-Mail-Server,interne und externe Kommunikation,E-Mail-Adressen; Inhalte; Protokolle,Mitarbeitende; Kunden; Lieferanten,IT-Leitung,keiner
+Dateiablage,Dokumente und Verträge,Verträge; Korrespondenz; Lebensläufe,Mitarbeitende; Kunden; Bewerber,IT-Leitung,keiner
+Zeiterfassung,Arbeitszeit aufzeichnen,Name; Arbeitszeiten; Abwesenheiten,Mitarbeitende,Personal,keiner
+Videoüberwachung Eingang,Schutz von Eigentum und Personen,Videoaufnahmen,Besucher; Mitarbeitende,Haustechnik,Sicherheitsdienst
+Backup-Dienst,Sicherung der Systeme,Kopien aller Systemdaten,alle,IT-Leitung,Backup GmbH
+Lohnverrechnung,Gehälter berechnen,Name; Sozialversicherungsnummer; Gehalt; Bankverbindung,Mitarbeitende,Personal,Steuerberatung Mayr

@@ -1,0 +1,11 @@
+Stichtag: 2026-11-30 (Annahme: ein Monat ab Eingang, Verlängerung höchstens zwei weitere Monate)
+
+Nr    Recht                  Eingang     Fristende   Wochentag          Rest (Tage)  spätestes Ende bei Verlängerung
+A-01  Auskunft               2026-10-15  2026-11-15  Sonntag     15 Tage überfällig                       2027-01-15
+A-02  Löschung               2026-10-31  2026-11-30  Montag                       0                       2027-01-31
+A-03  Berichtigung           2026-11-30  2026-12-30  Mittwoch                    30                       2027-02-28
+A-04  Auskunft               2027-01-31  2027-02-28  Sonntag                     90                       2027-04-30
+A-05  Datenübertragbarkeit   2028-01-31  2028-02-29  Dienstag                   456                       2028-04-30
+A-06  Widerspruch            2026-08-31  2026-09-30  Mittwoch    61 Tage überfällig                       2026-11-30
+
+Hinweis: Fällt das Fristende auf ein Wochenende, wird hier NICHT verschoben (Kursannahme).

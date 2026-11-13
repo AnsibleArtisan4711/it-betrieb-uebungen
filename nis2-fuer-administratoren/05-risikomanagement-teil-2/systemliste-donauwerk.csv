@@ -1,0 +1,9 @@
+System,Funktion,Kritikalitaet,Verantwortlich,Authentifizierung,Fernzugriff
+ERP-System,Auftragsabwicklung,3,IT-Leitung,Passwort,nein
+Fertigungssteuerung,Steuerung der Maschinen,3,Produktionsleitung,gemeinsames Passwort,ja (Maschinenlieferant)
+E-Mail,Kommunikation,2,IT-Leitung,Passwort und Mehr-Faktor,ja
+Dateiserver,Konstruktionsdaten,3,IT-Leitung,Passwort,nein
+VPN-Zugang,Homeoffice,2,IT-Leitung,Passwort und Mehr-Faktor,ja
+Cloud-Backup-Konsole,Sicherung,3,IT-Leitung,Passwort,ja
+Firewall,Netzübergang,3,Netzwerkpartner,Passwort,ja (Dienstleister)
+Zeiterfassung,Arbeitszeit,1,Personal,Passwort,nein

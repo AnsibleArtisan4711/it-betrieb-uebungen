@@ -1,0 +1,30 @@
+Stufen: Frühwarnung 24 h, Meldung 72 h ab Kenntnis, Abschlussbericht 1 Monat nach der Meldung (Richtlinie, Kursannahme)
+
+V-1 Ransomware im ERP (Dienstag)
+  Kenntnis                 2026-11-03 14:20
+  Frühwarnung bis          2026-11-04 14:20
+  Meldung bis              2026-11-06 14:20  (abgegeben 2026-11-06 09:00)
+  Abschlussbericht bis     2026-12-06 09:00  (Richtlinie, ein Monat nach tatsächlicher Meldung)
+  abweichend laut Quelle   2026-12-04 14:20  (Austrian Standards: ein Monat nach der Frühwarnung)
+
+V-2 Fertigungsausfall am Freitagabend
+  Kenntnis                 2026-11-06 19:45
+  Frühwarnung bis          2026-11-07 19:45
+  Meldung bis              2026-11-09 19:45  (noch nicht abgegeben)
+  Abschlussbericht bis     2026-12-09 19:45  (Richtlinie, ein Monat nach Fristende der Meldung)
+  abweichend laut Quelle   2026-12-07 19:45  (Austrian Standards: ein Monat nach der Frühwarnung)
+
+V-3 Datenabfluss am Monatsende
+  Kenntnis                 2026-12-30 10:00
+  Frühwarnung bis          2026-12-31 10:00
+  Meldung bis              2027-01-02 10:00  (abgegeben 2026-12-31 08:30)
+  Abschlussbericht bis     2027-01-31 08:30  (Richtlinie, ein Monat nach tatsächlicher Meldung)
+  abweichend laut Quelle   2027-01-31 10:00  (Austrian Standards: ein Monat nach der Frühwarnung)
+
+V-4 Störung beim Lieferanten
+  Kenntnis                 2027-01-29 16:10
+  Frühwarnung bis          2027-01-30 16:10
+  Meldung bis              2027-02-01 16:10  (noch nicht abgegeben)
+  Abschlussbericht bis     2027-03-01 16:10  (Richtlinie, ein Monat nach Fristende der Meldung)
+  abweichend laut Quelle   2027-02-28 16:10  (Austrian Standards: ein Monat nach der Frühwarnung)
+

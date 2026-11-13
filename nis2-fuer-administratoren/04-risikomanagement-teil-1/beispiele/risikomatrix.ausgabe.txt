@@ -1,0 +1,23 @@
+Rangliste (Risiko = Eintritt x Auswirkung, Skalen 1 bis 5, Annahme)
+
+Rang ID   System                                    E  A Risiko  Klasse
+   1 S04  Fernwartungszugang Maschinenlieferant     4  4     16  hoch
+   2 S01  ERP-System                                3  5     15  hoch
+   3 S05  Dateiserver                               3  4     12  mittel
+   4 S10  Konstruktionsrechner (CAD)                3  4     12  mittel
+   5 S03  E-Mail-Server                             4  3     12  mittel
+   6 S02  Fertigungssteuerung (Fertigungsnetz)      2  5     10  mittel
+   7 S06  Cloud-Backup                              2  4      8  mittel
+   8 S07  Webseite                                  3  2      6  niedrig
+   9 S08  Zeiterfassung                             2  2      4  niedrig
+  10 S09  Drucker und Scanner                       3  1      3  niedrig
+
+Matrix (Zeilen: Eintritt 5 bis 1, Spalten: Auswirkung 1 bis 5, Einträge: System-IDs)
+          A=1             A=2             A=3             A=4             A=5             
+E=5       .               .               .               .               .               
+E=4       .               .               S03             S04             .               
+E=3       S09             S07             .               S05,S10         S01             
+E=2       .               S08             .               S06             S02             
+E=1       .               .               .               .               .               
+
+Anzahl je Klasse: hoch 2, mittel 5, niedrig 3

@@ -1,0 +1,8 @@
+Kennzahlen (Zielwerte sind Annahmen der Übung)
+
+Anteil geschulter Mitarbeitender                           85.0 %      Ziel >=  90.0  verfehlt
+Dauer bis zum Einspielen kritischer Updates (Mittelwert)     4.0 Tage   Ziel <=   4.0  erreicht
+  Median der Dauer                                          3.5 Tage  
+Anteil kritischer Updates innerhalb von 3 Tagen            66.7 %      Ziel >=  80.0  verfehlt
+Erfolgreiche Wiederherstellungstests                       75.0 %      Ziel >= 100.0  verfehlt
+Vorfälle innerhalb der Zielzeit behandelt                  83.3 %      Ziel >=  80.0  erreicht

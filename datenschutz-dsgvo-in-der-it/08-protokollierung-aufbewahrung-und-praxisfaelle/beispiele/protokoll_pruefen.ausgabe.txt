@@ -1,0 +1,19 @@
+Datei: protokoll-auszug.log, 14 Zeilen
+
+Protokoll  Zeilen  mit Personenbezug  gefundene Arten
+web             3                  3  IP-Adresse, Kundennummer
+auth            3                  3  Benutzerkennung, E-Mail, IP-Adresse
+mail            2                  2  E-Mail
+sys             3                  0  -
+vpn             1                  1  Benutzerkennung, IP-Adresse
+app             2                  2  Buchungsnummer, Telefonnummer
+
+Häufigkeit je Art (Zeilen):
+  IP-Adresse       7
+  Benutzerkennung  4
+  E-Mail           4
+  Buchungsnummer   2
+  Kundennummer     1
+  Telefonnummer    1
+
+Hinweis: Das Skript findet nur Muster; die Einordnung als personenbezogen bleibt Aufgabe der Beurteilung.

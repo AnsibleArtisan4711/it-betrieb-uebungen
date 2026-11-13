@@ -1,0 +1,34 @@
+Kursregel, kein Rechtsrat (siehe Kopf der Datei)
+
+Beispiel A: Energieversorger
+  Beschäftigte 300, Umsatz 120.0 Mio., Bilanzsumme 150.0 Mio.
+  Schritt 1 Größe mittel oder größer: ja
+  Schritt 2 Sektor: Energie; Anlage 1
+  Schritt 3 Ergebnis nach Kursregel: wesentliche Einrichtung
+
+Beispiel B: Softwarehaus
+  Beschäftigte 48, Umsatz 6.0 Mio., Bilanzsumme 4.0 Mio.
+  Schritt 1 Größe mittel oder größer: nein
+  Schritt 2 Sektor: Software (kein Sektor der Anlagen, Annahme); Anlage keine
+  Schritt 3 Ergebnis nach Kursregel: voraussichtlich nicht erfasst (Sektor prüfen)
+  Unsicherheiten: Beschäftigtenzahl nahe der Schwelle von 50 (Zählweise klären)
+
+Beispiel C: Lebensmittelhersteller
+  Beschäftigte 70, Umsatz 14.0 Mio., Bilanzsumme 9.0 Mio.
+  Schritt 1 Größe mittel oder größer: ja
+  Schritt 2 Sektor: Lebensmittel; Anlage 2
+  Schritt 3 Ergebnis nach Kursregel: wichtige Einrichtung
+
+Beispiel D: Rechenzentrumsbetreiber
+  Beschäftigte 40, Umsatz 12.0 Mio., Bilanzsumme 8.0 Mio.
+  Schritt 1 Größe mittel oder größer: ja
+  Schritt 2 Sektor: digitale Infrastruktur; Anlage 1
+  Schritt 3 Ergebnis nach Kursregel: wichtige Einrichtung
+
+Donauwerk Fertigungs GmbH
+  Beschäftigte 120, Umsatz 28.0 Mio., Bilanzsumme unbekannt Mio.
+  Schritt 1 Größe mittel oder größer: ja
+  Schritt 2 Sektor: Produktion (Annahme: Maschinenteile); Anlage 2
+  Schritt 3 Ergebnis nach Kursregel: wichtige Einrichtung
+  Unsicherheiten: Bilanzsumme fehlt
+

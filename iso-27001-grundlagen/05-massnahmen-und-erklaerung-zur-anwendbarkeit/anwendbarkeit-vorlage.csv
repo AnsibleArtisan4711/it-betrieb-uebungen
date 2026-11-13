@@ -1,0 +1,5 @@
+Massnahme,Thema,Anwendbar,Begruendung,Umsetzungsstand,Nachweis
+Zugriffsrechte nach dem Prinzip der geringsten Rechte,technologisch,ja,Kundendaten und Quellcode sind schützenswert,teilweise,Rechteliste je System
+Zutrittsschutz Serverraum Graz,physisch,ja,Netzwerktechnik und Entwicklungsserver stehen dort,umgesetzt,Zutrittsliste
+Sicherheitsüberprüfung von Bewerbern,personenbezogen,ja (eingeschränkt),nur für Rollen mit Zugriff auf Kundendaten,geplant,Verfahrensanweisung
+Schutz von Produktionsanlagen,organisatorisch,nein,Das Unternehmen betreibt keine Produktionsanlagen,nicht zutreffend,Begründung im Dokument

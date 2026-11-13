@@ -1,0 +1,9 @@
+Lieferant,Leistung,Zugriff_auf_Netz,Daten,Ersatz_moeglich,Nachweis_vorhanden
+Maschinenbau Roth GmbH,Fernwartung der Fräsmaschinen,ja (VPN ins Fertigungsnetz),Maschinenparameter,nein (herstellerspezifisch),nein
+CloudSafe Backup AG,Cloud-Backup,ja (Agent auf Servern),verschlüsselte Sicherungen,ja (mit Aufwand),Zertifikat liegt vor
+Hosting Nord GmbH,Webserver und Portal,nein,Webdaten,ja,Zertifikat liegt vor
+ERP-Partner Kern GmbH,Betreuung des ERP,ja (Administratorzugang),Auftrags- und Kundendaten,nein,nein
+Bürobedarf Winter,Büromaterial,nein,keine,ja,nicht nötig
+Reinigung Sauber KG,Gebäudereinigung,nein,keine,ja,nicht nötig
+Netzwerkpartner Linz,Betreuung von Switches und Firewall,ja (Administratorzugang),Konfigurationen,ja (mit Aufwand),nein
+Software Lizenzhandel GmbH,Lizenzvertrieb,nein,Lizenzdaten,ja,nicht nötig

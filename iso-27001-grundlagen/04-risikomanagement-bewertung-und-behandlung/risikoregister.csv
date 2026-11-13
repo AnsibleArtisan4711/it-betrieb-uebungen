@@ -1,0 +1,11 @@
+ID,Wert,Risiko,Eintritt,Auswirkung,Eigner,Option,Rest_Eintritt,Rest_Auswirkung,Massnahme
+R01,W02,Datenabfluss aus der Kundendatenbank,3,5,Betriebsleitung,verringern,2,5,Verschlüsselung und Zugriffskonzept
+R02,W03,Ausfall des Cloud-Hostings,3,4,Betriebsleitung,teilen,2,3,Vertrag mit Verfügbarkeitszusage und zweite Region
+R03,W01,Manipulation von Quellcode,2,5,Entwicklungsleitung,verringern,1,5,Code-Review und signierte Commits
+R04,W04,Schadcode in der Build-Pipeline,3,4,Entwicklungsleitung,verringern,2,3,getrennte Build-Umgebung
+R05,W05,Verlust eines unverschlüsselten Laptops,4,3,IT-Leitung,verringern,2,2,Festplattenverschlüsselung
+R06,W06,Offenlegung von Personalakten,2,4,Personal,verringern,1,4,Zugriff nur für Personal
+R07,W07,Phishing auf Postfächer,5,3,IT-Leitung,verringern,3,3,Mehr-Faktor-Anmeldung und Schulung
+R08,W09,Stromausfall im Serverraum,2,3,Haustechnik,akzeptieren,2,3,keine
+R09,W10,Backup nicht wiederherstellbar,2,5,Betriebsleitung,verringern,1,5,regelmäßige Wiederherstellungstests
+R10,W08,Insolvenz des Hosting-Dienstleisters,2,4,,teilen,,,

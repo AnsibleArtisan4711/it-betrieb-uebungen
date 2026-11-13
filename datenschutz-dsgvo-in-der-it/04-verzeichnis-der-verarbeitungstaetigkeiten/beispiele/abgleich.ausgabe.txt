@@ -1,0 +1,16 @@
+Systeme in der Systemliste: 9, Einträge im Verzeichnis: 6
+
+Systeme ohne Eintrag im Verzeichnis:
+  - Dateiablage
+  - Videoüberwachung Eingang
+  - Backup-Dienst
+
+Einträge mit leeren Pflichtfeldern:
+  - Buchungssystem: Loeschfrist
+  - Kundenportal: Empfaenger, Loeschfrist, Massnahmen
+  - Newsletter-Dienst: Massnahmen
+  - E-Mail-Server: Empfaenger, Loeschfrist, Massnahmen
+  - Zeiterfassung: Empfaenger, Loeschfrist, Massnahmen
+  - Lohnverrechnung: Loeschfrist, Massnahmen
+
+Hinweis: Pflichtangaben aus dem Fachwissen, nicht am Gesetz geprüft.

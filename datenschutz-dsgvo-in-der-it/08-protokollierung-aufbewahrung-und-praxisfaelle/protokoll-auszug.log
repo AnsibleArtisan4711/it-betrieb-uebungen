@@ -1,0 +1,14 @@
+[web]  2026-11-09 08:01:12 10.50.0.31 GET /buchung/4711 200 "Mozilla/5.0"
+[web]  2026-11-09 08:01:40 203.0.113.45 GET /portal/profil?kunde=K-20418 200 "Mozilla/5.0"
+[web]  2026-11-09 08:02:05 203.0.113.45 POST /portal/login 302 "Mozilla/5.0"
+[auth] 2026-11-09 08:02:05 login ok user=m.huber@alpenblick.example.com src=203.0.113.45
+[auth] 2026-11-09 08:15:33 login fail user=s.berger@alpenblick.example.com src=198.51.100.77
+[auth] 2026-11-09 08:15:41 login fail user=admin src=198.51.100.77
+[mail] 2026-11-09 09:10:02 from=newsletter@alpenblick.example.com to=gast@example.org status=sent
+[mail] 2026-11-09 09:10:03 from=newsletter@alpenblick.example.com to=reisende@example.net status=bounced
+[sys]  2026-11-09 09:30:00 backup job started
+[sys]  2026-11-09 09:41:17 backup job finished, 128 files, 4,2 GB
+[sys]  2026-11-09 10:05:44 service portal restarted by task scheduler
+[vpn]  2026-11-09 10:20:09 tunnel up user=k.leitner src=198.51.100.12 virtual=10.50.0.201
+[app]  2026-11-09 11:00:31 Buchung B-208114 angelegt, Kontakt +43 660 5550123
+[app]  2026-11-09 11:03:02 Zahlung für B-208114 abgelehnt (Code 51)

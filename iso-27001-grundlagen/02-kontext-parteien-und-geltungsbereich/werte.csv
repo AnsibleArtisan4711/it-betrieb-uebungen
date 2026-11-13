@@ -1,0 +1,11 @@
+ID,Wert,Typ,Eigentuemer,Vertraulichkeit,Integritaet,Verfuegbarkeit
+W01,Quellcode-Repository,Information,Entwicklungsleitung,3,3,2
+W02,Kundendatenbank (SaaS-Mandanten),Information,Betriebsleitung,3,3,3
+W03,SaaS-Plattform im Cloud-Hosting,Dienst,Betriebsleitung,2,3,3
+W04,Build-Server und Pipeline,System,Entwicklungsleitung,2,3,2
+W05,Mitarbeiterlaptops,Gerät,IT-Leitung,2,2,2
+W06,Personalakten,Information,Personal,3,3,1
+W07,E-Mail und Kalender,Dienst,IT-Leitung,2,2,2
+W08,Hosting-Vertrag mit Dienstleister,Beziehung,Geschäftsführung,1,2,3
+W09,Serverraum Standort Graz,Ort,Haustechnik,1,1,3
+W10,Backup der Produktivdaten,Dienst,Betriebsleitung,3,3,3

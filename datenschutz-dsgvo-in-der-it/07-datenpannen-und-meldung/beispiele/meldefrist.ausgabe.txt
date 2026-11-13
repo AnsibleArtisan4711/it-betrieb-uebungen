@@ -1,0 +1,13 @@
+Frist: 72 Stunden ab Kenntnis (Annahme). Zeitpunkt für offene Fälle: 2026-11-20 09:00
+
+Nr   Kenntnis         Fristende        Meldung          Dauer (h)  Bewertung
+F-1  2026-11-02 08:30 2026-11-05 08:30 2026-11-03 10:00      25.5  innerhalb von 72 Stunden
+     (Laptop im Zug verloren (Montag))
+F-2  2026-11-06 17:30 2026-11-09 17:30 2026-11-09 17:00      71.5  innerhalb von 72 Stunden
+     (Falsche Freigabe, Freitagabend entdeckt)
+F-3  2026-11-06 22:15 2026-11-09 22:15 2026-11-10 09:00      82.8  10.8 Stunden zu spät: Begründung der Verspätung nötig
+     (Ransomware, Meldung nach Wochenende)
+F-4  2026-11-18 14:00 2026-11-21 14:00 offen                    -  offen, noch 29.0 Stunden bis zum Fristende
+     (Newsletter an falschen Verteiler)
+F-5  2026-11-17 06:45 2026-11-20 06:45 offen                    -  offen, Frist seit 2.2 Stunden überschritten
+     (Zugangsdaten im Netz gefunden)

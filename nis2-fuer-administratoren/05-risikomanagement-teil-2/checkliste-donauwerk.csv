@@ -1,0 +1,9 @@
+Frage,Antwort
+Gibt es eine Härtungsrichtlinie für Server?,nein
+Werden Sicherheitsupdates innerhalb von 30 Tagen eingespielt?,teilweise (Server ja; Fertigungsrechner nein)
+Gibt es eine Liste aller eingesetzten Software?,nein
+Werden Schwachstellen regelmäßig gescannt?,nein
+Sind Administratorkonten von Alltagskonten getrennt?,teilweise
+Werden Fernwartungszugänge nach der Nutzung deaktiviert?,nein
+Sind Datenträger auf Laptops verschlüsselt?,ja
+Wird die Wiederherstellung aus dem Backup getestet?,einmal pro Jahr

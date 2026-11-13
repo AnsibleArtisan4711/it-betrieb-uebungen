@@ -1,0 +1,9 @@
+# 01 Informationssicherheit, ISMS und Normfamilie
+
+Übung **01.1**. Geschätzte Zeit: 3 bis 4 Stunden (Lehrplan: 5 UE).
+
+> Stand: Entwurf, nicht erprobt; Ausgabe der Norm an Produktseite geprüft. Details im Warnhinweis der Übung.
+
+| Datei | Zweck |
+|---|---|
+| `01.1-informationssicherheit-isms-und-normfamilie.md` | Die Übung mit Aufgaben, Kontrollfragen und Musterlösung |

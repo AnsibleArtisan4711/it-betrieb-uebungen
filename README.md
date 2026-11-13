@@ -17,6 +17,9 @@ Homelab, Betrieb, Dokumentation und Unternehmensgründung. Alles auf Deutsch. Je
 | [sla-und-betriebshandbuch](sla-und-betriebshandbuch/) | Übungsreihe | SLA, Servicekatalog, Verfügbarkeit, Betriebshandbuch und Runbooks (P43), 8 Module, 36 Stunden |
 | [asset-verwaltung-und-cmdb](asset-verwaltung-und-cmdb/) | Übungsreihe | Asset-Verwaltung und CMDB mit GLPI auf Hyper-V (P69), 8 Module, 33,75 Stunden |
 | [lizenzmanagement](lizenzmanagement/) | Übungsreihe | Lizenzmodelle, Compliance und Lizenzregister mit Fallstudien und Rechenaufgaben, ohne Labor (P70), 8 Module, 30 Stunden |
+| [datenschutz-dsgvo-in-der-it](datenschutz-dsgvo-in-der-it/) | Übungsreihe | Datenschutz (DSGVO) in der IT mit Fallstudien und Rechenhilfen, ohne Labor (P47), 9 Module, 36,75 Stunden, kein Rechtsrat |
+| [nis2-fuer-administratoren](nis2-fuer-administratoren/) | Übungsreihe | NIS2 und NISG 2026 für Administratoren mit Fallstudien und Rechenhilfen, ohne Labor (P48), 8 Module, 34,5 Stunden, kein Rechtsrat |
+| [iso-27001-grundlagen](iso-27001-grundlagen/) | Übungsreihe | Aufbau eines ISMS nach ISO/IEC 27001 mit Fallstudien und Rechenhilfen, ohne Labor (P49), 9 Module, 36,75 Stunden, ohne Normtext |
 
 ## Lizenz
 

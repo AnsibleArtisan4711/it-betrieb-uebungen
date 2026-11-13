@@ -1,0 +1,11 @@
+ID,System,Eintritt,Auswirkung,Anmerkung
+S01,ERP-System,3,5,Stillstand der Auftragsabwicklung
+S02,Fertigungssteuerung (Fertigungsnetz),2,5,Stillstand der Produktion
+S03,E-Mail-Server,4,3,häufiges Ziel von Phishing
+S04,Fernwartungszugang Maschinenlieferant,4,4,externer Zugriff auf das Fertigungsnetz
+S05,Dateiserver,3,4,Verträge und Konstruktionsdaten
+S06,Cloud-Backup,2,4,Wiederherstellung hängt davon ab
+S07,Webseite,3,2,nur Information
+S08,Zeiterfassung,2,2,Ausweichverfahren auf Papier
+S09,Drucker und Scanner,3,1,geringe Bedeutung
+S10,Konstruktionsrechner (CAD),3,4,Geistiges Eigentum

@@ -1,0 +1,7 @@
+System,Zweck,Betroffene,Datenkategorien,Empfaenger,Loeschfrist,Massnahmen
+Buchungssystem,Reisebuchungen abwickeln,Kunden,Name; Adresse; Passnummer; Zahlungsdaten,Reiseveranstalter,,Zugriffsrechte
+Kundenportal,Selbstbedienung,Kunden,Name; E-Mail; Historie,,,
+Newsletter-Dienst,Marketing per E-Mail,Interessenten,E-Mail; Vorname,Mailversand AG,bis Widerruf,
+E-Mail-Server,Kommunikation,Mitarbeitende; Kunden,Adressen; Inhalte,,,
+Zeiterfassung,Arbeitszeit aufzeichnen,Mitarbeitende,Name; Arbeitszeiten,,,
+Lohnverrechnung,Gehälter berechnen,Mitarbeitende,Name; Sozialversicherungsnummer; Gehalt,Steuerberatung Mayr,,
